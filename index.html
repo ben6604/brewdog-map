@@ -145,7 +145,7 @@ speed: 0.5
 // On every scroll event, check which element is on screen
 window.onscroll = function() {
 var chapterNames = Object.keys(chapters);
-for (var i = 0; i < chapterNames.length -20; i++) {
+for (var i = 0; i < chapterNames.length +20; i++) {
 var chapterName = chapterNames[i];
 if (isElementOnScreen(chapterName)) {
 setActiveChapter(chapterName);
